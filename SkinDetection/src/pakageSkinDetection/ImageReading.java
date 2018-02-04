@@ -27,7 +27,7 @@ public class ImageReading extends RGBConverter {
 		for(int i=0;i<256;i++) 
 			for(int j=0;j<256;j++) 
 				for(int k=0;k<256;k++) 
-					sw.write(i+" "+j+" "+k+" "+skin[i][j][k]+" "+nonSkin[i][j][k]+"\n");
+					sw.write(skin[i][j][k]+" "+nonSkin[i][j][k]+"\n");
 				
 		sw.close();
 	}

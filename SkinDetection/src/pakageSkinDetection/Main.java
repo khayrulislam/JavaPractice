@@ -9,7 +9,7 @@ public class Main {
 		ir.readImageAndLearn("ImageFolder\\image","ImageFolder\\mask","skinNonSkinMap.txt");*/
 		
 		CreateImageMask cim = new CreateImageMask();
-		cim.createAMaskImage("ImageFolder\\image\\image10.jpg","skinNonSkinMap.txt");
+		cim.createAMaskImage("ImageFolder\\image\\image1.jpg","skinNonSkinMap.txt");
 	}
 
 }
